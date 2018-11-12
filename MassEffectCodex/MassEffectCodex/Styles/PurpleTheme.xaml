@@ -1,0 +1,32 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MassEffectCodex">
+    
+    <!-- Free Public License 1.0.0 Permission to use, copy, modify, and/or distribute this code for any purpose with or without fee is hereby granted. -->
+    <ResourceDictionary.ThemeDictionaries>
+        <ResourceDictionary x:Key="Default">
+            <ResourceDictionary.MergedDictionaries>
+                <ColorPaletteResources Accent="#FF8C23CF" AltHigh="#FF000000" AltLow="#FF000000" AltMedium="#FF000000" AltMediumHigh="#FF000000" AltMediumLow="#FF000000" BaseHigh="#FFFFFFFF" BaseLow="#FF260533" BaseMedium="#FF9880A1" BaseMediumHigh="#FFB49FBC" BaseMediumLow="#FF5F436A" ChromeAltLow="#FFB49FBC" ChromeBlackHigh="#FF000000" ChromeBlackLow="#FFB49FBC" ChromeBlackMedium="#FF000000" ChromeBlackMediumLow="#FF000000" ChromeDisabledHigh="#FF260533" ChromeDisabledLow="#FF9880A1" ChromeGray="#FF7B6185" ChromeHigh="#FF7B6185" ChromeLow="#FF180124" ChromeMedium="#FF1C0228" ChromeMediumLow="#FF23042F" ChromeWhite="#FFFFFFFF" ListLow="#FF1C0228" ListMedium="#FF260533" />
+                <ResourceDictionary>
+                    <Color x:Key="RegionColor">#FF3B1661</Color>
+                    <SolidColorBrush x:Key="RegionBrush" Color="{StaticResource RegionColor}" />
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+        <ResourceDictionary x:Key="Light">
+            <ResourceDictionary.MergedDictionaries>
+                <ColorPaletteResources Accent="#FF9C1BF0" AltHigh="#FFFFFFFF" AltLow="#FFFFFFFF" AltMedium="#FFFFFFFF" AltMediumHigh="#FFFFFFFF" AltMediumLow="#FFFFFFFF" BaseHigh="#FF000000" BaseLow="#FFB475D9" BaseMedium="#FF7C3D9F" BaseMediumHigh="#FF561879" BaseMediumLow="#FF692B8C" ChromeAltLow="#FF561879" ChromeBlackHigh="#FF000000" ChromeBlackLow="#FFB475D9" ChromeBlackMedium="#FF561879" ChromeBlackMediumLow="#FF7C3D9F" ChromeDisabledHigh="#FFB475D9" ChromeDisabledLow="#FF7C3D9F" ChromeGray="#FF692B8C" ChromeHigh="#FFB475D9" ChromeLow="#FFE7C9FA" ChromeMedium="#FFDDB8F3" ChromeMediumLow="#FFE7C9FA" ChromeWhite="#FFFFFFFF" ListLow="#FFDDB8F3" ListMedium="#FFB475D9" />
+                <ResourceDictionary>
+                    <Color x:Key="RegionColor">#FF9B4EFF</Color>
+                    <SolidColorBrush x:Key="RegionBrush" Color="{StaticResource RegionColor}" />
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+        <ResourceDictionary x:Key="HighContrast">
+            <StaticResource x:Key="RegionColor" ResourceKey="SystemColorWindowColor" />
+            <SolidColorBrush x:Key="RegionBrush" Color="{StaticResource RegionColor}" />
+        </ResourceDictionary>
+    </ResourceDictionary.ThemeDictionaries>
+
+</ResourceDictionary>

@@ -1,0 +1,56 @@
+﻿@page "/"
+@inject HttpClient Http
+
+<h1>Hello, Mass Effect gamer!</h1>
+
+Welcome to your new Initiative Codex app.
+
+<SurveyPrompt Title="How is Mass Effect Codex working for you?" />
+<SurveyPrompt Title="What features you want to be added to Codex?" />
+<div class="card-groups">
+    @if (_isLoading)
+    {
+        <div class="card bg-info">
+            <div class="card-header">Mass Effect: Andromeda</div>
+            <div class="card-body">
+                <h5 class="card-title">Mission cards Info</h5>
+                <p class="card-text">Loading cards...</p>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="card-deck">
+            @foreach (var mea in mEAs)
+            {
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">@mea.Title</h5>
+                        <p class="card-text">@mea.Url</p>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    </div>
+
+    @functions{
+        MEA[] mEAs;
+        bool _isLoading = true;
+        string _disabled => _isLoading ? "disabled" : null;
+
+        protected override async Task OnInitAsync() => GetAndromedaMissionsAsync();
+        private async Task GetAndromedaMissionsAsync()
+        {
+            _isLoading = true;
+            mEAs = await Http.GetJsonAsync<MEA[]>("/sample-data/mea.json");
+            _isLoading = false;
+        }
+        class MEA
+        {
+            public int ID { get; set; }
+            public string Title { get; set; }
+            public string Url { get; set; }
+            public int Ns { get; set; }
+        }
+    }

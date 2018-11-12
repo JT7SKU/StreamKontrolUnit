@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Janisku7</Authors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.3.0.840541-pre1" />  
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\GoalsPage.xaml.cs">
+      <DependentUpon>GoalsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\GoalItemDetailPage.xaml.cs">
+      <DependentUpon>GoalItemDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\NewGoalPage.xaml.cs">
+      <DependentUpon>NewGoalPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,79 @@
+﻿@page "/striimigoals"
+<div class="options">
+    <div class="option active" style="--optionBackground:url(https://66.media.tumbrl.com6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6x51qho82wo1_1280.jpg);">
+        <div class="shadow"></div>
+        <div class="label">
+            <div class="icon">
+                <i class="fas fa-walking"></i>
+            </div>
+            <div class="info">
+                <div class="main">Blonkisoaz</div>
+                <div class="sub">Omuke thrugte a otufta</div>
+            </div>
+        </div>
+    </div>
+    <div class="option" style="--optionBackground:url(https://66.media.tumbrl.com6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6x51qho82wo1_1280.jpg);">
+        <div class="shadow"></div>
+        <div class="label">
+            <div class="icon">
+                <i class="fas fa-snowflake"></i>
+            </div>
+            <div class="info">
+                <div class="main">Blonkisoaz</div>
+                <div class="sub">Omuke thrugte a otufta</div>
+            </div>
+        </div>
+    </div>
+    <div class="option" style="--optionBackground:url(https://66.media.tumbrl.com6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6x51qho82wo1_1280.jpg);">
+        <div class="shadow"></div>
+        <div class="label">
+            <div class="icon">
+                <i class="fas fa-tree"></i>
+            </div>
+            <div class="info">
+                <div class="main">Blonkisoaz</div>
+                <div class="sub">Omuke thrugte a otufta</div>
+            </div>
+        </div>
+    </div>
+    <div class="option" style="--optionBackground:url(https://66.media.tumbrl.com6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6x51qho82wo1_1280.jpg);">
+        <div class="shadow"></div>
+        <div class="label">
+            <div class="icon">
+                <i class="fas fa-tint"></i>
+            </div>
+            <div class="info">
+                <div class="main">Blonkisoaz</div>
+                <div class="sub">Omuke thrugte a otufta</div>
+            </div>
+        </div>
+    </div>
+    <div class="option active" style="--optionBackground:url(https://66.media.tumbrl.com6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6x51qho82wo1_1280.jpg);">
+        <div class="shadow"></div>
+        <div class="label">
+            <div class="icon">
+                <i class="fas fa-sun"></i>
+            </div>
+            <div class="info">
+                <div class="main">Blonkisoaz</div>
+                <div class="sub">Omuke thrugte a otufta</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@functions{
+    bool option = false;
+    private Task OptionActive()
+    {
+        if (option)
+        {
+            option = false;
+        }
+        else
+            option = true;
+        return Task.CompletedTask;
+    }
+}
