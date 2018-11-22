@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace StreamKontrolUnit.BackEnd.Interface
 {
-    interface IJwtTokenService
+    public interface IJwtTokenService
     {
         string BuildToken(string Email);
     }

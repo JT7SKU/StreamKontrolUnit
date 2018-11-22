@@ -17,7 +17,7 @@ namespace StreamKontrolUnit.BackEnd.Controllers
         private readonly IJwtTokenService _tokenService;
         private readonly UserManager<IdentityUser> _userManager;
 
-        public AccountController(/*IJwtTokenService jwtTokenService,*/ UserManager<IdentityUser> userManager)
+        public AccountController(IJwtTokenService jwtTokenService, UserManager<IdentityUser> userManager)
         {
            // this._tokenService = jwtTokenService;
             this._userManager = userManager;
