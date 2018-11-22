@@ -1,0 +1,34 @@
+﻿@using StreamKontrolUnit.Shared
+@inject Microsoft.AspNetCore.Blazor.Services.IUriHelper UriHelper
+@page "/registration"
+@inject HttpClient Http
+
+<div class="container">
+    <h1> Register to StreamKontrolUnit </h1>
+    <div class="form-group">
+         <label for="email">Email</label>
+        <input type="text" name="email" placeholder="Email" class="form-control" bind="@Email" />
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Password" class="form-control" bind="@Password" />
+    </div>
+    <button onclick="@SubmitForm">Submit</button>
+</div>
+
+@functions{
+    public string Email { get; set; } = "";
+    public string Password { get; set; } = "";
+
+    private async Task SubmitForm()
+    {
+        var vm = new TokenViewModel
+        {
+            Email = Email,
+            Password = Password
+        };
+        await Http.PostJsonAsync("https://localhost:5001/api/Token/Registration", vm);
+        UriHelper.NavigateTo("/login");
+    }
+
+}

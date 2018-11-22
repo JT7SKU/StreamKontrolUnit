@@ -96,7 +96,7 @@ namespace StreamKontrolUnit.Services.Ink
         {
             if (!selectionStrokesRect.IsEmpty)
             {
-                Point offset;
+                Point offset = new Point();
                 offset.X = e.Delta.Translation.X;
                 offset.Y = e.Delta.Translation.Y;
                 MoveSelection(offset);
