@@ -27,7 +27,7 @@ namespace StreamKontrolUnit.Services
 
                             new AdaptiveText()
                             {
-                                 Text = @"Click OK to see how activation from a toast notification can be handled in the ToastNotificationService."
+                                 Text = @"Stream Kontrol Unit Toast notification"
                             }
                         }
                     }
