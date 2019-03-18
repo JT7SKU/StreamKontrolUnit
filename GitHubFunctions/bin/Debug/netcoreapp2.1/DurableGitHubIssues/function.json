@@ -1,0 +1,13 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions-1.0.24",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "orchestrationTrigger",
+      "name": "context"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/GitHubFunctions.dll",
+  "entryPoint": "GitHubFunctions.DurableGitHubIssues.RunOrchestrator"
+}

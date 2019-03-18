@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\janis\\source\\repos\\SKU.StreamKontrolUnit\\StreamKontolUnitX\\StreamKontolUnitX.Android\\StreamKontolUnitX.Android.csproj",
+  "TargetFramework": "v8.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

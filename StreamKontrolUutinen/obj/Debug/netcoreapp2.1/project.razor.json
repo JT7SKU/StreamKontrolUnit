@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\janis\\source\\repos\\SKU.StreamKontrolUnit\\StreamKontrolUutinen\\StreamKontrolUutinen.csproj",
+  "TargetFramework": "netcoreapp2.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

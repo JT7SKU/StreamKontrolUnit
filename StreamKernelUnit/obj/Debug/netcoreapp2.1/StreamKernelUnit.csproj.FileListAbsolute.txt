@@ -1,0 +1,9 @@
+C:\Users\janis\source\repos\StreamKernelUnit\bin\Debug\netcoreapp2.1\StreamKernelUnit.deps.json
+C:\Users\janis\source\repos\StreamKernelUnit\bin\Debug\netcoreapp2.1\StreamKernelUnit.dll
+C:\Users\janis\source\repos\StreamKernelUnit\bin\Debug\netcoreapp2.1\StreamKernelUnit.pdb
+C:\Users\janis\source\repos\StreamKernelUnit\obj\Debug\netcoreapp2.1\StreamKernelUnit.csprojAssemblyReference.cache
+C:\Users\janis\source\repos\StreamKernelUnit\obj\Debug\netcoreapp2.1\StreamKernelUnit.csproj.CoreCompileInputs.cache
+C:\Users\janis\source\repos\StreamKernelUnit\obj\Debug\netcoreapp2.1\StreamKernelUnit.AssemblyInfoInputs.cache
+C:\Users\janis\source\repos\StreamKernelUnit\obj\Debug\netcoreapp2.1\StreamKernelUnit.AssemblyInfo.cs
+C:\Users\janis\source\repos\StreamKernelUnit\obj\Debug\netcoreapp2.1\StreamKernelUnit.dll
+C:\Users\janis\source\repos\StreamKernelUnit\obj\Debug\netcoreapp2.1\StreamKernelUnit.pdb
