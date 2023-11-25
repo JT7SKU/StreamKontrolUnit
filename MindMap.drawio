@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-25T00:19:05.076Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="NWKmX4OgymsATPtol3yy" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-25T00:32:40.801Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="bcIAKpIK9UY6PkJHhM6T" version="22.1.4" type="github" pages="2">
   <diagram name="Sivu-1" id="nVIp9f3CLLhEfEjgpF28">
     <mxGraphModel dx="1434" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,6 +58,26 @@
         <mxCell id="Mv3_jATNsVEBFW0Uo7lB-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Mv3_jATNsVEBFW0Uo7lB-7" target="Mv3_jATNsVEBFW0Uo7lB-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Cx0Q3Kvt6o_P9Q8PGs4c-1" value="Serve Client User" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="430" y="650" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx0Q3Kvt6o_P9Q8PGs4c-2" value="Web" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="Cx0Q3Kvt6o_P9Q8PGs4c-1">
+          <mxGeometry x="10" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx0Q3Kvt6o_P9Q8PGs4c-4" value="Windows" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="455" y="718" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx0Q3Kvt6o_P9Q8PGs4c-5" value="Other" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="500" y="768" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LRm45qyk42Pnruzg1hll" name="Sivu-2">
+    <mxGraphModel dx="1434" dy="944" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
