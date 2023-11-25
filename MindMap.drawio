@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-11-25T00:14:13.688Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="j3TTnimohAnwvsVr2zuD" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-25T00:19:05.076Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="NWKmX4OgymsATPtol3yy" version="22.1.4" type="github">
   <diagram name="Sivu-1" id="nVIp9f3CLLhEfEjgpF28">
     <mxGraphModel dx="1434" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="bNF-SPqmJaTVdJ-8YDtE-1" value="Stream &lt;br&gt;Komponents" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;shadow=1;glass=1;fontColor=#C3ABD0;labelBackgroundColor=#FFCCFF;" parent="1" vertex="1">
-          <mxGeometry x="130" y="100" width="160" height="80" as="geometry" />
+          <mxGeometry x="240" y="650" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bNF-SPqmJaTVdJ-8YDtE-2" value="JT7-SKU&lt;br&gt;Stream Kontrol Unit" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="360" y="350" width="170" height="90" as="geometry" />
@@ -16,8 +16,11 @@
         <mxCell id="Mv3_jATNsVEBFW0Uo7lB-1" value="Stream Knotify Unit" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="620" y="390" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="Mv3_jATNsVEBFW0Uo7lB-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Mv3_jATNsVEBFW0Uo7lB-2" target="bNF-SPqmJaTVdJ-8YDtE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Mv3_jATNsVEBFW0Uo7lB-2" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="50" y="620" width="30" height="60" as="geometry" />
+          <mxGeometry x="160" y="640" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mv3_jATNsVEBFW0Uo7lB-3" value="Tietokanta" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=16;gradientColor=#9999FF;fillColor=#0000FF;" vertex="1" parent="1">
           <mxGeometry x="720" y="60" width="60" height="80" as="geometry" />
@@ -32,16 +35,28 @@
           <mxGeometry x="80" y="380" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Mv3_jATNsVEBFW0Uo7lB-7" value="Virtual Intelligence" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="480" y="130" width="30" height="60" as="geometry" />
+          <mxGeometry x="730" y="230" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mv3_jATNsVEBFW0Uo7lB-9" value="Stream Kontrol Utility" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="240" y="430" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Mv3_jATNsVEBFW0Uo7lB-10" value="Stream Kauppa Utility" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="390" y="510" width="120" height="80" as="geometry" />
+          <mxGeometry x="370" y="520" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Mv3_jATNsVEBFW0Uo7lB-11" value="Stream Kontrol Uutinen" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="270" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Mv3_jATNsVEBFW0Uo7lB-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Mv3_jATNsVEBFW0Uo7lB-12" target="Mv3_jATNsVEBFW0Uo7lB-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mv3_jATNsVEBFW0Uo7lB-12" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="60" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mv3_jATNsVEBFW0Uo7lB-13" value="App AdminCenter" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#FFCCFF;strokeColor=#6c8ebf;gradientColor=#B266FF;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mv3_jATNsVEBFW0Uo7lB-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Mv3_jATNsVEBFW0Uo7lB-7" target="Mv3_jATNsVEBFW0Uo7lB-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
