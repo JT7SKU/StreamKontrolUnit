@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-25T00:02:30.907Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="ePhY3NUmVt-aB2tsRNOW" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-25T00:05:47.755Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="E5RLVTVCvRWpQekXaTqG" version="22.1.4" type="github">
   <diagram name="Sivu-1" id="nVIp9f3CLLhEfEjgpF28">
     <mxGraphModel dx="1434" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,7 +32,10 @@
           <mxGeometry x="80" y="380" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Mv3_jATNsVEBFW0Uo7lB-7" value="Virtual Intelligence" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="560" y="660" width="30" height="60" as="geometry" />
+          <mxGeometry x="480" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mv3_jATNsVEBFW0Uo7lB-9" value="Stream Kontrol Utility" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="350" y="480" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
