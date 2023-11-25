@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-25T00:32:51.099Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="5PbceRQccPzr7K-tghfR" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-25T00:33:38.608Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="Qi1yqed4KUwWu_7fD3rJ" version="22.1.4" type="github">
   <diagram name="Sivu-1" id="nVIp9f3CLLhEfEjgpF28">
     <mxGraphModel dx="1434" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
           <mxGeometry x="80" y="380" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Mv3_jATNsVEBFW0Uo7lB-7" value="Virtual Intelligence" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="730" y="230" width="30" height="60" as="geometry" />
+          <mxGeometry x="680" y="230" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mv3_jATNsVEBFW0Uo7lB-9" value="Stream Kontrol Utility" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="240" y="430" width="120" height="80" as="geometry" />
@@ -55,7 +55,7 @@
         <mxCell id="Mv3_jATNsVEBFW0Uo7lB-13" value="App AdminCenter" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#FFCCFF;strokeColor=#6c8ebf;gradientColor=#B266FF;glass=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mv3_jATNsVEBFW0Uo7lB-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Mv3_jATNsVEBFW0Uo7lB-7" target="Mv3_jATNsVEBFW0Uo7lB-7">
+        <mxCell id="Mv3_jATNsVEBFW0Uo7lB-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Mv3_jATNsVEBFW0Uo7lB-7" target="bNF-SPqmJaTVdJ-8YDtE-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cx0Q3Kvt6o_P9Q8PGs4c-1" value="Serve Client User" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
